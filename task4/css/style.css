@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.page {
+    display: flex;          
+    height: 100vh;          
+}
+
+.left {
+    width: 7%;
+    background-color: #ffffff;
+}
+
+.center {
+    width: 63%;
+    background-color: #e9eced;
+}
+
+.right {
+    width: 30%;
+    background-color: #ffffff;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+} 
+.icon{
+    width: 20px;
+}
+
+.orange-icon{
+    border-color: #FF9921;
+    border-style:  solid;
+    background-color: #FF9921;
+    border-radius: 6px;
+    width: 35px;
+    padding: 3%;
+} 
+
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.my-5{
+    margin-top: 5%;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+input[type="search"]:focus{
+    outline: none;
+
+}
+
+
+::placeholder{
+    color: #61656F;
+    padding-left: 20px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.search-box {
+    width: 220px;
+}
+
+.search {
+    width: 100%;
+    padding: 8px 12px 8px ;
+    border: none;
+    background-color: #B4BCCF69;
+    border-radius: 8px;
+    
+}
+
+.fa-magnifying-glass {
+    left: 10px;
+    top: 25%;
+    color: #61656F;
+
+}
+
+.p-3{
+    padding-bottom: 3%;
+}
+
+.banner {
+    width: 100%;
+    background-image: url(../images/Rectangle-black.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    aspect-ratio: 20 / 8; 
+}
+
+
+.content {
+    width: 45%;
+    color: white;
+}
+
+.pizza-banner {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height:330px;
+}
+
+.pizza-img {
+    width: 100%;
+}
+
+
+.my-10{
+margin-bottom: 10%
+}
+
+.j-img{
+    width:50px;
+}
+
+.alarm{
+    width: 17px;
+}
+
+.j-text{
+    padding-top: 15%;
+
+}
+
+.parent-box {
+    width: 100%;
+}
+
+.black-img {
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.orange-card {
+    background: linear-gradient(90deg, #ffa733, #ffca8e);
+    border-radius: 20px;
+    width: 95%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-overlay {
+    width: 95%;
+    height: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.overlap-wrapper {
+    width: 40px; 
+    height: 25px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 0;
+}
+
+.circle-left {
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.circle-right {
+  left: 17px; 
+  background-color: rgba(255, 255, 255, 0.3);
+ 
+}
+
+
+.card-number {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.bottom-row {
+    font-size: 14px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.circle-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.card-number {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+.bottom-row {
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+
+
+.mx-10{
+    margin-top: 10%;
+}
+
+.orange-color{
+    color:#FF9921;
+}
+
+.order-button{
+    border: #FF9921 solid;
+    width: fit-content;
+    background-color: #FF9921;
+    border-radius: 8px;
+    padding:5px;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.content{
+    width: 50%;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 4%;
+}
+
+.content > h2{
+    font-size: 40px;
+}
+
+.text-20{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-header {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu-header {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    gap:50px;
+}
+
+    .border-4 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.063);
+}
+
+.icon-4 {
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+}
+
+.border-4 p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.orange-color {
+    color: #FF9921;
+    font-weight: bolder;
+}
+
+.green-color{
+    color: #01C550;
+}
+
+.pizza-photos{
+    width: 160px;
+    padding-right: 10%;
+}
+
+.my-6{
+    margin-bottom: 6%;
+}
+
+
+
+.card-pizza {
+    gap: 30px; 
+    border-radius: 20px;
+    
+}
+
+.single-card {
+    background-color: #f9f9f9;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    width: 350px; 
+    overflow: hidden;
+    }
+
+.pizza-content> h2{
+    font-size: 30px;
+}
+
+.pizza-photos {
+  width: 180px;
+
+}
+
+.green-color {
+  color: #01c550;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.plus-border {
+    bottom: 15px;   
+    right: 15px;    
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.rgba{
+    color: #0000001b;
+}
+
+.card {
+    gap: 15px;
+    padding: 5px;
+    margin-bottom: 15px; 
+    border-radius: 15px;
+    background-color: #B4BCCF4D;
+    align-items: center;
+}
+.card img {
+    width: 70px;
+    border-radius: 10px;
+}
+.card  p {
+    margin: 3px 0;
+}
+
+.cheak-button{
+    border: #FF9921 solid;
+    width: fit-content;
+    background-color: #FF9921;
+    border-radius: 8px;
+    padding:7px;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    margin-top: 4%;
+
+}
+
+.px-2{
+    padding-right: 5%;
+}
+
+.py-4{
+    padding-top: 9%;
+}
+
+.plus-min{
+    background-color: #ffffff;
+    border:  1px white solid;
+    padding: 2px;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px ;
+
+}
+
+.plus-1-min{
+    bottom: 10px;
+    right: 10px;
+    gap: 10px;
+    font-weight: 200;
+}
+
+.g-color{
+color:#01c550 ;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
